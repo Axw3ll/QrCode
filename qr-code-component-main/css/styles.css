@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+:root {
+    --color-primario: #2eb380;
+    --color-blanco:hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+  
+  }
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+.body{
+    background: var(--Light-gray);
+    
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 550px;
+  margin: auto;
+  margin-top: 80px;
+  background-color: var(--color-blanco);
+  text-align: center;
+  font-size: 12px;
+  border-radius: 20px;
+  font-family: 'Outfit', sans-serif;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 10px 10px 200px black;
+
+}
+#imagen {
+  
+  
+  margin: 10px;
+  border-radius: 10px;
+}
+#texto{
+  margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container{
+    width: 80%;
+    height: 380px;
+    margin: 130px auto;
+  }
+
+  #imagem {
+    width: 50%;
+  }
+}
